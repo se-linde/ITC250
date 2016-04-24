@@ -19,15 +19,15 @@
     <div id="header">
 	  <div id="banner">
 	    <div id="welcome">
-	      <h1>Welcome To Spinifex</h1>
+	      <h1>Welcome To Taco Stand</h1>
             <h2><?=$pageID?></h2>
 	    </div><!--close welcome-->
         <div id="menubar">
         <ul id="menu">
    
-        <?=makeLinks($nav1)?>
+          
             
-            <!-- <li class="current"><a href="index.html">Home</a></li>
+            <!-- THIS WAS FROM LINE 28: < ?=makeLinks($nav1)? > <li class="current"><a href="index.html">Home</a></li>
             <li><a href="ourwork.html">Our Work</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
             <li><a href="projects.html">Projects</a></li>

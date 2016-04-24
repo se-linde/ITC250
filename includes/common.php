@@ -39,28 +39,21 @@ function makeLinks($arr,$prefix='',$suffix='',$exception='')
 
 //version of makeLinks() for SPOT application
 
+/* 
 function makeLinks($ar)
 {
     $myReturn = '';
     foreach($ar as $url => $label)
     {
-        
-        
         if($url == THIS_PAGE){
             echo '<li class="active"><a href="' . $url . '">' . $label . '</a></li>';
         }else{
             echo '<li><a href="' . $url . '">' . $label . '</a></li>';
-        }
-        
-        
-        
-    
+        }   
     }
-    
-    
-
     return $myReturn;
 }
+*/ 
 
 
 

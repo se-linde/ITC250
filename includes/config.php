@@ -36,12 +36,12 @@ date_default_timezone_set('America/Los_Angeles'); #sets default date/timezone fo
 
 
 
-$nav1['index.php'] = "home";   
-$nav1['ourwork.php'] = "our work"; 
-$nav1['testimonials.php'] = "testimonials"; 
-$nav1['projects.php'] = "projects"; 
-$nav1['contact.php'] = "contact us"; 
-$nav1['maps.php'] = "maps"; 
+// $nav1['index.php'] = "home";   
+// $nav1['ourwork.php'] = "our work"; 
+// $nav1['testimonials.php'] = "testimonials"; 
+// $nav1['projects.php'] = "projects"; 
+// $nav1['contact.php'] = "contact us"; 
+// $nav1['maps.php'] = "maps"; 
 
 // echo THIS_PAGE;
 // die; 
