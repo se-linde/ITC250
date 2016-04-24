@@ -24,7 +24,7 @@ $item2 = new item('Halibut Tacos', 'Alaskan Halibut with just the right amount o
 $item3 = new item('Shrimp Tacos', 'Baja style shrimp with your choice of softshell or hardshell', 7.95);
 $item4 = new item('Tofu Tacos', 'Vegetarians escape to the gulf of Mexico', 6.95);
 $item5 = new item('Big Kahuna Burrito', 'Your choice of beef, chicken or steak', 9.95);
-$item6 = new item('Gazpacho', 'Andalusian cold soup consisting of bread, tomato, cucumber, bell pepper, onion and garlic, olive oil,                    wine vinegar, water, and salt', 9.95);
+$item6 = new item('Gazpacho', 'Andalusian cold soup consisting of bread, tomato, cucumber, bell pepper, onion and garlic, olive oil, wine vinegar, water, and salt', 9.95);
 //test
 /*echo $item6->Name . "<br />";
 echo $item6->Description . "<br />";
