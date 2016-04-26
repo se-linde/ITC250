@@ -73,7 +73,7 @@ switch(THIS_PAGE)
     case "projects.php": 
         $title = "Projects page";
         $pageID = "projects page"; 
-        $pic = '<img src="images/tacos.jpg" />';
+        $pic = '<img src="images/tacos-stand-logo.gif" />';
         break;
     
         
