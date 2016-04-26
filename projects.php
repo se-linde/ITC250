@@ -5,8 +5,9 @@
 <h1>Order Your Baja Tacos Here!</h1>
 
 
-<?php
 
+<?php
+/* 
 $toAddress = "spinifex@gmail.com";  
 $toName = "ITC 240"; 
 $website = "Spinifex Questionnaire";  
@@ -42,8 +43,11 @@ if ($response != null && $response->success)
         $feedback = dateFeedback($dateFeedback);
         send_POSTtoJS($skipFields); #function for sending POST data to JS array to reload form elements
     }//end failure feedback
- 
+*/  
 ?>
+
+
+<section>
 	<!-- START HTML FORM -->
 	<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 
@@ -287,12 +291,14 @@ if ($response != null && $response->success)
     <script type="text/javascript"
         src="https://www.google.com/recaptcha/api.js?hl=en">
     </script>
+</section>
+
+<?php include 'includes/aside2.php';?>
+
 <?php
-}
+
 ?>
 
 
-
-
-<?php include 'includes/footer.php';?> 
+<!-- </*?php include 'includes/footer.php';?*/>
     
