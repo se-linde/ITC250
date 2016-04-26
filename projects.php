@@ -13,7 +13,8 @@
 		
     
     <p>
-        <h2>Main Dishes</h2>    
+        <h2>Main Dishes!</h2>
+        <p>Note: If you would like to order more than 9 items, please contact our Catering Department at 206-555-1212, and ask for Bones Tacoman.</p>
         
     <div>	
 		<label>
