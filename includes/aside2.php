@@ -1,25 +1,22 @@
-<h1><em>Taco Truck Order Cart: </em></h1>
-<br>
-    
-<h4>Here is the subtotal of your order: </h4>
-<?=$subtotal?>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<h4>Here is the calculated tax:</h4>
-<?=$tax?>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<h4>Here is the total of your order:</h4>
-<?=$total?>
-<p></p>
-<p></p>
-<p></p>
+<h1><em>Your order: </em></h1>
+
+<p>
+    <?php 
+    foreach($items as $item){
+        if($item->quantity > 0){
+            
+        }
+    }
+    ?>
+</p>
+
+<p>
+    Subtotal: <?='$'.money_format($cart->getSubtotal($items),2);?>
+</p>
+<p>
+    Tax: <?='$'.money_format($cart->getTax($items),2)?>
+</p>
+<p>
+    Total: <?='$'.money_format($cart->getTotal($items),2)?>
+</p>
 
