@@ -97,10 +97,13 @@ switch(THIS_PAGE)
         $pic = '<img src="images/spinifex1.jpg" />';
 }
 
-//Here are the keys for the server: lindesara.com
-$siteKey = "6LfY3hQTAAAAALqw7wkWTM5lRpTzhowstYYF4lub";
-$secretKey = "6LfY3hQTAAAAAIU-wyXU7I5A8l0El4gJ41c1AlIA";
+//Here are the keys for the server: lindese.com
+$siteKey = "6LcmXBcTAAAAAKZtAVLCZajUgski2nXVLzwBfOOi";
+$secretKey = "6LcmXBcTAAAAABnQsS3wAaDsk1o5PJAMCb50VtNe";
 
+//Here are the keys for the server: lindesara.com
+//$siteKey = "6LfY3hQTAAAAALqw7wkWTM5lRpTzhowstYYF4lub";
+//$secretKey = "6LfY3hQTAAAAAIU-wyXU7I5A8l0El4gJ41c1AlIA";
 
 if(startSession() && isset($_SESSION['AdminID']))
 {#add admin logged in info to sidebar or nav
