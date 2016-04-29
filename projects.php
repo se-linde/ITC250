@@ -3,7 +3,9 @@
     include 'menu_item_class.php';
     include 'includes/header.php';
     include 'taco_cart.php';
+    
     $cart = new Cart();
+    setlocale(LC_MONETARY, 'en_US');
 
 /* 
 $toAddress = "spinifex@gmail.com";  
@@ -45,7 +47,7 @@ if ($response != null && $response->success)
 ?>
 
 <h1>Order Your Baja Tacos Here!</h1>
-<h2>I'm testing GitHub!!!</h2>
+
 <section>
     <!-- START HTML FORM -->
     <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">

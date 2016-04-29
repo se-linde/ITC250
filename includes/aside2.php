@@ -2,21 +2,29 @@
 
 <p>
     <?php 
+    
     foreach($items as $item){
         if($item->quantity > 0){
-            
+            $output = '<strong>'.$item->name.'</strong></br>';
+            $output .= $item->quantity.' x $'.money_format('%!.2n',$item->price);
+            $output .= ' = ';
+            $output .= '$'.money_format('%!.2n',($item->quantity*$item->price)).'</br>';
+            echo $output;
         }
     }
     ?>
 </p>
 
 <p>
-    Subtotal: <?='$'.money_format($cart->getSubtotal($items),2);?>
+    Subtotal: <?='$'.money_format('%!.2n',$cart->getSubtotal($items));?>
 </p>
 <p>
-    Tax: <?='$'.money_format($cart->getTax($items),2)?>
+    Tax: <?='$'.money_format('%!.2n',$cart->getTax($items))?>
 </p>
 <p>
-    Total: <?='$'.money_format($cart->getTotal($items),2)?>
+    <strong>Total: </strong><?='$'.money_format('%!.2n',$cart->getTotal($items))?>
 </p>
 
+<!--
+Fixed number formatting
+Added current cart item view
