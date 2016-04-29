@@ -20,13 +20,13 @@ define('DEBUG',true); #we want to see all errors
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 /* use the following path settings for placing all code in one application folder */ 
-define('VIRTUAL_PATH', 'http://www.lindese.com/itc240/sandbox/assignments-lc/leather_coffee/'); # Virtual (web) 'root' of application for images, JS & CSS files
+define('VIRTUAL_PATH', 'http://www.lindese.com/itc250/sandbox/A2-FoodTruck/'); # Virtual (web) 'root' of application for images, JS & CSS files
 
 define('PREFIX', 'spot_'); #Adds uniqueness to your DB table names.  Limits hackability, naming collisions
 
 define('ADMIN_PATH', VIRTUAL_PATH); # Path to Admin files: could change to https://, etc.
 
-define('PHYSICAL_PATH', '/home/sarlin18/lindese.com/itc240/sandbox/assignments-lc/leather_coffee/'); # Physical (PHP) 'root' of application for file & upload reference
+define('PHYSICAL_PATH', '/home/sarlin18/lindese.com/itc250/sandbox/A2-FoodTruck/'); # Physical (PHP) 'root' of application for file & upload reference
 
 define('INCLUDE_PATH', PHYSICAL_PATH . 'includes/'); # Path to PHP include files - INSIDE APPLICATION ROOT
 
