@@ -46,7 +46,8 @@ if ($response != null && $response->success)
 */  
 ?>
 
-<h1>Order Your Baja Tacos Here!</h1>
+<h1>Order Your Baja Tacos Here!</h1><p>
+<h3>Note: If you would like to order more than 9 of any item, please contact our Catering Department at 206-555-1212, and ask for Bones Tacoman.</h3><p>
 
 <section>
     <!-- START HTML FORM -->
@@ -134,7 +135,7 @@ if ($response != null && $response->success)
 -->
     <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
 	<div>
-		<input type="Submit" value="Submit" />
+		<input type="Submit" value="Order your delicious food here!" />
 	</div>
     </form>
 	<!-- END HTML FORM -->
